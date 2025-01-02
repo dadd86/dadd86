@@ -19,7 +19,7 @@
 </div>
 <picture> <img align="right" src="https://github.com/dadd86/dadd86/raw/main/Imagenes/Right_Side.gif?raw=true" width = 250px></picture>
 
-### ⚙️ &nbsp;GitHub Analytics
+### ⚙️ &nbsp; GitHub Analytics
 <!-- Esta sección muestra las estadísticas de contribuciones y lenguajes de GitHub -->
 <p align="center">
 <a href="https://github.com/AVS1508">
@@ -30,7 +30,7 @@
 
 <div id="user-content-toc">
  <ul align="left">
-     <summary><h2>Languages and Tools🤝</h2></summary>
+     <summary><h2>🛠 Languages and Tools</h2></summary>
   </ul>
 </div>
 
@@ -95,7 +95,7 @@
 <!-- Conexión con redes sociales -->
 <div id="user-content-toc">
   <ul align="left">
-    <summary><h2>Connect With Me🤝</h2></summary>
+    <summary><h2>🤝 Connect With Me</h2></summary>
   </ul>
 </div>
 

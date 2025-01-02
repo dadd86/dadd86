@@ -22,7 +22,7 @@ With a deep passion for software development and automation technology, I am alw
 </p>
 
 <ul align="left">
-    <summary><h2 style="display: inline-block">Languages and Tools🤝</h2></summary>
+    <summary><h2>Languages and Tools🤝</h2></summary>
  </ul>
 <table style="margin: auto;">
     <tr>
@@ -73,7 +73,7 @@ With a deep passion for software development and automation technology, I am alw
 <!--h2 without bottom border-->
 <div id="user-content-toc">
   <ul align="left">
-    <summary><h2 style="display: inline-block">Connect With Me🤝</h2></summary>
+    <summary><h2>Connect With Me🤝</h2></summary>
   </ul>
 </div>
 

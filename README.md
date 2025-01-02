@@ -36,51 +36,44 @@
 
 <div style="display: flex; justify-content: center; align-items: center;">
 <!-- Sección que contiene las tecnologías y herramientas que manejo -->
-<table>
-    <!-- Backend -->
+<table>    
     <tr>
+    <!-- Backend -->
         <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Backend:</td>
         <td><img height="40" src="https://skillicons.dev/icons?i=java,cs,python,maven,hibernate,nodejs"/></td>
-    </tr>
-
-    <!-- Frontend -->
+    </tr>    
     <tr>
+    <!-- Frontend -->
         <td style="font-weight: bold; padding-right: 10px; vertical-align: middle;">Frontend:</td>
         <td><img height="40" src="https://skillicons.dev/icons?i=react,html,css,cpp,c,sass,js,ts"/></td>
-    </tr>
-
-    <!-- Database -->
+    </tr>    
     <tr>
+    <!-- Database -->
         <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Database:</td>
         <td><img height="40" src="https://skillicons.dev/icons?i=mysql"/></td>
-    </tr>
-
-    <!-- DevOps -->
+    </tr>    
     <tr>
+    <!-- DevOps -->
         <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">DevOps:</td>
         <td><img height="40" src="https://skillicons.dev/icons?i=docker"/></td>
-    </tr>
-
-    <!-- Version Control -->
+    </tr>  
     <tr>
+    <!-- Version Control -->
         <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Version Control:</td>
         <td><img height="40" src="https://skillicons.dev/icons?i=git,github,gitlab"/></td>
-    </tr>
-
-    <!-- Ides -->
+    </tr>    
     <tr>
+    <!-- Ides -->
         <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Ides:</td>
         <td><img height="40" src="https://skillicons.dev/icons?i=vscode,unity,eclipse,visualstudio,idea,sublime"/></td>
-    </tr>
-
-    <!-- Operating Systems -->
+    </tr>    
     <tr>
+    <!-- Operating Systems -->
         <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Operating Systems:</td>
         <td><img height="40" src="https://skillicons.dev/icons?i=windows,ubuntu,debian,alpine"/></td>
-    </tr>
-
-    <!-- Automation -->
+    </tr>    
     <tr>
+    <!-- Automation -->
         <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Automation:</td>
         <td style="text-align: center;">
             <!-- Iconos relacionados con la automatización y plataformas de hardware -->

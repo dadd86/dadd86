@@ -9,6 +9,17 @@ With a deep passion for software development and automation technology, I am alw
 </h4>
 </div>
 <picture> <img align="right" src="https://github.com/dadd86/dadd86/raw/main/Imagenes/Right_Side.gif?raw=true" width = 250px></picture>
+
+
+
+
+### ⚙️ &nbsp;GitHub Analytics
+<p align="center">
+<a href="https://github.com/AVS1508">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=dadd86&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=dadd86&layout=compact&langs_count=8&theme=algolia"/>
+</a>
+</p>
 <!--  https://github.com/dadd86/dadd86/tree/main/Imagenes-->
 <!-- Connect with me -->
 <!--h2 without bottom border-->

@@ -22,7 +22,7 @@ With a deep passion for software development and automation technology, I am alw
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
-<table>
+<table style="margin: auto;">
     <tr>
         <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Backend:</td>
         <td><img height="40" src="https://skillicons.dev/icons?i=java,cs,python,maven,hibernate,nodejs"/></td>

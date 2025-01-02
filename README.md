@@ -20,13 +20,15 @@ With a deep passion for software development and automation technology, I am alw
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=dadd86&layout=compact&langs_count=8&theme=algolia"/>
 </a>
 </p>
+
+
 <div id="user-content-toc">
  <ul align="left">
      <summary><h2>Languages and Tools🤝</h2></summary>
   </ul>
 </div>
 
-<table style="margin: auto; horizontal: middle">
+<table style="margin: auto; horizontal: middle; align="center"">
     <tr>
         <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Backend:</td>
         <td><img height="40" src="https://skillicons.dev/icons?i=java,cs,python,maven,hibernate,nodejs"/></td>

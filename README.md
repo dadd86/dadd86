@@ -1,4 +1,7 @@
-## Hi, I´m Diego 👋
+<h1 align="center"> Hello Guys!, I´m Diego 👋</h1>
+</div>
+<img src="https://i.imgur.com/weNbhGZ.png">
+
 
 <!--
 **dadd86/dadd86** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

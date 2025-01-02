@@ -50,7 +50,7 @@
     <tr>
     <!-- Database -->
         <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Database:</td>
-        <td><img height="40" src="https://skillicons.dev/icons?i=mysql"/></td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=mysql,aws"/></td>
     </tr>    
     <tr>
     <!-- DevOps -->

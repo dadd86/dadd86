@@ -70,6 +70,7 @@ With a deep passion for software development and automation technology, I am alw
 <!-- Connect with me -->
 <!--h2 without bottom border-->
 <div id="user-content-toc">
+ <h3 align="left">Languages and Tools:</h3>
   <ul align="center">
     <summary><h2 style="display: inline-block">Connect With Me🤝</h2></summary>
   </ul>

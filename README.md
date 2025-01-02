@@ -28,76 +28,51 @@ With a deep passion for software development and automation technology, I am alw
   </ul>
 </div>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centered Table</title>
-    <style>
-        /* Asegura que el body ocupe toda la altura de la ventana */
-        body, html {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: Arial, sans-serif;
-        }
-        table {
-            margin: auto;
-            border-collapse: collapse;
-            width: 80%; /* Puedes ajustar el ancho */
-        }
-        td {
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <table>
-        <tr>
-            <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Backend:</td>
-            <td><img height="40" src="https://skillicons.dev/icons?i=java,cs,python,maven,hibernate,nodejs"/></td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; padding-right: 10px; vertical-align: middle;">Frontend:</td>
-            <td><img height="40" src="https://skillicons.dev/icons?i=react,html,css,cpp,c,sass,js,ts"/></td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Database:</td>
-            <td><img height="40" src="https://skillicons.dev/icons?i=mysql"/></td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">DevOps:</td>
-            <td><img height="40" src="https://skillicons.dev/icons?i=docker"/></td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Version Control:</td>
-            <td><img height="40" src="https://skillicons.dev/icons?i=git,github,gitlab"/></td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Ides:</td>
-            <td><img height="40" src="https://skillicons.dev/icons?i=vscode,unity,eclipse,visualstudio,idea,sublime"/></td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Operating Systems:</td>
-            <td><img height="40" src="https://skillicons.dev/icons?i=windows,ubuntu,debian,alpine"/></td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Automation:</td>
-            <td style="text-align: center;">
-                <img height="40" src="https://skillicons.dev/icons?i=arduino,raspberrypi" />
-                <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/robotic.png" width="50px" style="vertical-align: middle;" /></picture>
-                <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/images.png" width="50px" style="vertical-align: middle;" /></picture>
-                <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/1512845393_sysmac.png" width="50px" style="vertical-align: middle;" /></picture>
-                <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/Allen-Bradley_logo.png" width="50px" style="vertical-align: middle;" /></picture>
-            </td>
-        </tr>
-    </table>
-</body>
-</html>
+<div style="display: flex; justify-content: center; align-items: center;">
+
+<table>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Backend:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=java,cs,python,maven,hibernate,nodejs"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: middle;">Frontend:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=react,html,css,cpp,c,sass,js,ts"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Database:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=mysql"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">DevOps:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=docker"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Version Control:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=git,github,gitlab"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Ides:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=vscode,unity,eclipse,visualstudio,idea,sublime"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Operating Systems:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=windows,ubuntu,debian,alpine"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Automation:</td>
+        <td style="text-align: center;">
+            <img height="40" src="https://skillicons.dev/icons?i=arduino,raspberrypi" />
+            <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/robotic.png" width="50px" style="vertical-align: middle;" /></picture>
+            <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/images.png" width="50px" style="vertical-align: middle;" /></picture>
+            <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/1512845393_sysmac.png" width="50px" style="vertical-align: middle;" /></picture>
+            <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/Allen-Bradley_logo.png" width="50px" style="vertical-align: middle;" /></picture>
+        </td>
+    </tr>
+</table>
+
+</div>
+
 
 
 

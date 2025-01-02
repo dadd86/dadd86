@@ -55,10 +55,10 @@ With a deep passion for software development and automation technology, I am alw
     <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Automation:</td>
     <td style="text-align: center;">
     <img height="40" src="https://skillicons.dev/icons?i=arduino,raspberrypi" />
-    <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/robotic.png" width="50px" /></picture>
-    <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/images.png" width="50px" /></picture>
-    <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/1512845393_sysmac.png" width="50px" /></picture>
-    <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/Allen-Bradley_logo.png" width="50px" /></picture>
+    <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/robotic.png" width="50px" vertical-align: center/></picture>
+    <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/images.png" width="50px" vertical-align: center/></picture>
+    <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/1512845393_sysmac.png" width="50px" vertical-align: center/></picture>
+    <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/Allen-Bradley_logo.png" width="50px" vertical-align: center/></picture>
 </td>
 
 </tr>

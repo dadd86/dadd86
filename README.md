@@ -22,6 +22,7 @@ With a deep passion for software development and automation technology, I am alw
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
+
 <table>
     <tr>
         <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Backend:</td>
@@ -61,13 +62,6 @@ With a deep passion for software development and automation technology, I am alw
         <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/Allen-Bradley_logo.png" width="50px" style="vertical-align: middle;" /></picture>
     </td>
 </tr>
-
-</td>
-
-</tr>
-
-</table>
-
 
 
 </div>

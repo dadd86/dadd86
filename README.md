@@ -51,7 +51,12 @@
     <!-- Database -->
         <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Database:</td>
         <td><img height="40" src="https://skillicons.dev/icons?i=mysql,aws"/></td>
-    </tr>    
+    </tr> 
+   <tr>
+    <!-- Cloud -->
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">Cloud:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=azure"/></td>
+    </tr>   
     <tr>
     <!-- DevOps -->
         <td style="font-weight: bold; padding-right: 10px; vertical-align: middle; border: none;">DevOps:</td>

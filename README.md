@@ -3,7 +3,7 @@
 </div>
 <!-- <img src="https://i.imgur.com/weNbhGZ.png"> -->
 ## <picture><img src = "https://github.com/dadd86/dadd86/Imagenes/about_me.gif?raw=true" width = 50px></picture> About me
-<picture> <img align="right" src="https://github.com/dadd86/dadd86/tree/main/Imagenes/Right_Side.gif?raw=true" width = 250px></picture>
+<picture> <img align="right" src="https://github.com/dadd86/dadd86/Imagenes/Right_Side.gif?raw=true" width = 250px></picture>
 <!--  https://github.com/dadd86/dadd86/tree/main/Imagenes-->
 <!-- Connect with me -->
 <!--h2 without bottom border-->

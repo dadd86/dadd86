@@ -1,6 +1,8 @@
-<h1 align="center"> Hello Guys!, I´m Diego 👋</h1>
+<h1 align="center"> Hello!, I´m Diego 👋</h1>
 </div>
-<img src="https://i.imgur.com/weNbhGZ.png">
+<!-- <img src="https://i.imgur.com/weNbhGZ.png"> -->
+
+
 
 
 <!--

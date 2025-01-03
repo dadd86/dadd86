@@ -1,37 +1,44 @@
 name: generate player movement animation
 
 on:
+  # Ejecutar automáticamente cada 6 horas
   schedule:
-    - cron: "0 */6 * * *"  # Ejecuta automáticamente cada 6 horas
+    - cron: "0 */6 * * *"
+  
+  # Permitir ejecutar manualmente el flujo de trabajo
   workflow_dispatch:
+  
+  # Ejecutar al hacer push a las ramas principales
   push:
     branches:
-    - master
-    - main
+      - master
+      - main
 
 jobs:
-  generate:
-    runs-on: ubuntu-latest  # Se ejecuta en un contenedor de Ubuntu
-    timeout-minutes: 10  # Tiempo límite de ejecución
-
+  generate_svg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
     steps:
-      # Paso 1: Generar la animación del jugador moviéndose entre las cajas
-      - name: generate player movement animation
-        uses: some-action/generate-player-movement@v1  # Usa una acción personalizada para generar la animación
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-player-movement.svg  # Ruta de salida para el archivo SVG generado
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Usar el token para autenticar la acción
+      # Paso 1: Generar la animación SVG
+      - name: Generate SVG file for player movement
+        run: |
+          echo '<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+                  <rect width="500" height="500" fill="lightgray"/>
+                  <rect x="50" y="100" width="50" height="50" fill="blue"/>
+                  <rect x="120" y="100" width="50" height="50" fill="blue"/>
+                  <rect x="190" y="100" width="50" height="50" fill="blue"/>
+                  <circle cx="50" cy="50" r="20" fill="red">
+                    <animate attributeName="cx" from="50" to="120" dur="1s" begin="0s" repeatCount="indefinite"/>
+                    <animate attributeName="cy" from="50" to="120" dur="1s" begin="0s" repeatCount="indefinite"/>
+                  </circle>
+                </svg>' > dist/player-movement.svg
 
-      # Paso 2: Subir la animación generada a la rama de salida
-      - name: push player movement animation to output branch
-        # Bloquear la versión exacta de la acción para evitar actualizaciones imprevistas
-        uses: crazy-max/ghaction-github-pages@v3.1.0  # Versión bloqueada de la acción para desplegar a GitHub Pages
+      # Paso 2: Subir el archivo SVG generado al repositorio
+      - name: Push generated SVG to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output  # Rama de destino donde se subirá el archivo
-          build_dir: dist  # Directorio de construcción con el archivo generado
+          target_branch: output
+          build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Usar el token para permisos de escritura en la rama de salida
-
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,15 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
-    <!-- Fondo -->
-    <rect id="background" width="500" height="500" fill="lightgray"/>
+  <!-- Fondo -->
+  <rect width="500" height="500" fill="lightgray"/>
+  
+  <!-- Cajas -->
+  <g id="boxes">
+    <!-- Generando 100 cajas de diferentes colores -->
+    <!-- Primer color (azul) -->
+    <rect x="50" y="50" width="50" height="50" fill="blue" class="box"/>
+    <rect x="120" y="50" width="50" height="50" fill="blue" class="box"/>
+    <rect x="190" y="50" width="50" height="50" fill="blue" class="box"/>
+    <rect x="260" y="50" width="50" height="50" fill="blue" class="box"/>
+    <!-- Agrega otras 16 cajas del color azul, distribuidas -->
     
-    <!-- Cajas -->
-    <rect id="box1" x="50" y="100" width="50" height="50" fill="blue"/>
-    <rect id="box2" x="120" y="100" width="50" height="50" fill="blue"/>
-    <rect id="box3" x="190" y="100" width="50" height="50" fill="blue"/>
-    
-    <!-- Jugador -->
-    <circle id="player" cx="50" cy="50" r="20" fill="red">
-        <animate attributeName="cx" from="50" to="120" dur="1s" begin="0s" repeatCount="indefinite"/>
-        <animate attributeName="cy" from="50" to="120" dur="1s" begin="0s" repeatCount="indefinite"/>
-    </circle>
+    <!-- Segundo color (rojo) -->
+    <rect x="50" y="120" width="50" height="50" fill="red" class="box"/>
+    <rect x="120" y="120" width="50" height="50" fill="red" class="box"/>
+    <!-- Agrega otras 18 cajas del color rojo, distribuidas -->
+
+    <!-- Repetir para otros colores -->
+  </g>
+  
+  <!-- Jugador -->
+  <circle id="player" cx="50" cy="50" r="20" fill="green">
+    <!-- La animación moverá al jugador por las cajas -->
+    <animate attributeName="cx" from="50" to="120" dur="2s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="cy" from="50" to="120" dur="2s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Animación de romper las cajas -->
+  <animate 
+    attributeName="visibility" 
+    values="visible;hidden;visible" 
+    keyTimes="0;0.5;1"
+    dur="2s"
+    repeatCount="indefinite" 
+    begin="0s"/>
 </svg>

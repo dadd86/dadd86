@@ -2,7 +2,7 @@ name: generate player movement animation
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # ejecuta cada 6 horas
+    - cron: "0 */6 * * *"  # Ejecuta automáticamente cada 6 horas
   workflow_dispatch:
   push:
     branches:
@@ -11,25 +11,27 @@ on:
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
+    runs-on: ubuntu-latest  # Se ejecuta en un contenedor de Ubuntu
+    timeout-minutes: 10  # Tiempo límite de ejecución
 
     steps:
-      # Step 1: Generar la animación del jugador moviéndose entre las cajas
+      # Paso 1: Generar la animación del jugador moviéndose entre las cajas
       - name: generate player movement animation
-        uses: some-action/generate-player-movement@v1
+        uses: some-action/generate-player-movement@v1  # Usa una acción personalizada para generar la animación
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-player-movement.svg
+            dist/github-player-movement.svg  # Ruta de salida para el archivo SVG generado
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Usar el token para autenticar la acción
 
-      # Step 2: Subir la animación generada al repositorio
+      # Paso 2: Subir la animación generada a la rama de salida
       - name: push player movement animation to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        # Bloquear la versión exacta de la acción para evitar actualizaciones imprevistas
+        uses: crazy-max/ghaction-github-pages@v3.1.0  # Versión bloqueada de la acción para desplegar a GitHub Pages
         with:
-          target_branch: output
-          build_dir: dist
+          target_branch: output  # Rama de destino donde se subirá el archivo
+          build_dir: dist  # Directorio de construcción con el archivo generado
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Usar el token para permisos de escritura en la rama de salida
+

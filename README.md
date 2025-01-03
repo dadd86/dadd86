@@ -1,4 +1,12 @@
 <h1 align="center">Hello!, I´m Diego Diaz. <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+## 🐍 A Snake Eating My Contributions Graph
+
+<p align="center">
+	<picture>
+		  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dadd86/dadd86/output/githubContributionPlayerMovement.svg">
+		  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/dadd86/dadd86/output/githubContributionPlayerMovement.svg">
+	</picture>
+</p>
 
 <picture><img src="https://github.com/dadd86/dadd86/raw/main/Imagenes/about_me.gif" width="50px"></picture> **About Me**
 
@@ -27,7 +35,7 @@
 
 ---
 
-### ⚙️ &nbsp; **GitHub Analytics**
+## ⚙️ &nbsp; **GitHub Analytics**
 <!-- Esta sección muestra las estadísticas de contribuciones y lenguajes de GitHub -->
 <p align="center">
 <a href="https://github.com/dadd86">

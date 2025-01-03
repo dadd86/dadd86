@@ -25,7 +25,7 @@ MARGIN = 5
 
 # Configuración inicial
 boxes = []
-colors = random.sample(COLORS, len(COLORS)) * 20  # 20 cajas por color
+colors = random.sample(COLORS * 20, 100)  # 100 cajas con colores aleatorios
 
 # Función para crear las cajas
 def create_boxes():
@@ -59,7 +59,7 @@ def change_color(current_color):
 
 # Juego principal
 running = True
-current_color = COLORS[0]
+current_color = colors[0]  # Inicializamos el color actual con el primero en la lista aleatoria
 create_boxes()
 
 while running:
@@ -71,8 +71,8 @@ while running:
     # Comprobar si se debe cambiar el color
     if change_color(current_color):
         # Cambiar al siguiente color
-        next_color_index = (COLORS.index(current_color) + 1) % len(COLORS)
-        current_color = COLORS[next_color_index]
+        next_color_index = (colors.index(current_color) + 1) % len(COLORS)
+        current_color = colors[next_color_index]
         # Reempezar el juego
         create_boxes()
 
